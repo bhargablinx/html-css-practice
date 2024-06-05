@@ -64,3 +64,22 @@ header {
     font-style: italic;
 }
 
+.second-header {
+    width: 80vw;
+    margin: 45px auto;
+    border-top: 2px solid #2b2f35;
+    color: #909090;
+}
+
+.second-h-list {
+    display: flex;
+    justify-content: space-between;
+    /* width: 50vw; */
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.second-h-list li {
+    flex: 1;
+}
+
