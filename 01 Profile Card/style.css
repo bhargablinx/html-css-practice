@@ -1,0 +1,77 @@
+:root {
+    --round-corner: 20px;
+    /* font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: poppins;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: var(--round-corner);
+    width: 6vw;
+    padding: 8px;
+    margin: 10px;
+    background-color: #3f71e6;
+    color: white;
+    border: 0;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: var(--round-corner);
+    height: 55vh;
+    width: 25vw;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-container {
+    background-color: #3f71e6;
+    border-radius:var(--round-corner) var(--round-corner) 0 0;
+    flex: 1;
+}
+
+.medium-container {
+    flex: 2;
+}
+
+.description {
+    margin: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.job {
+    font-weight: 300;
+}
+
+.social {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex: 1;
+}
+
+i{
+    padding: 10px;
+}
+
+.stats {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    margin: 0 20px;
+}
