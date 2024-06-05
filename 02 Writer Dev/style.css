@@ -131,3 +131,37 @@ header {
     margin-top: auto;
     align-items: flex-end;
 }
+
+.toggle-next-page {
+    width: 20vw;
+    height: 100px;
+    margin: auto;
+    color: #909090;
+    font-style: italic;
+}
+
+.toggle-next-page ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 0.3rem;
+    color: white;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-line {
+    border-top: 2px solid #3a3f47;
+    margin-bottom: 15px;
+}
