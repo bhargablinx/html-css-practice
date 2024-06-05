@@ -34,6 +34,9 @@ button {
     background-color: #3f71e6;
     border-radius:var(--round-corner) var(--round-corner) 0 0;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .medium-container {
@@ -74,4 +77,12 @@ i{
 
 .items {
     margin: 0 20px;
+}
+
+.profile {
+    background-color: #3f71e6;
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid white;
 }
