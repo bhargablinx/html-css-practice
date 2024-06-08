@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+.container {
+    background-color: #eeeeee;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 95vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+span {
+    font-weight: bold;
+    color: #74638f;
+}
+
+
+
+/* heading */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+.image-section {
+    margin-top: 50px;
+    background-color: white;
+    width: 100%;
+    min-height: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: auto;
+    height: 600px;
+}
+
+.image-section .caption {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+/* info section */
+
+.info-section {
+    padding: 45px 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    margin-bottom: 15px;
+    font-weight: 1000;
+}
+
+/* quote */
+
+.quote {
+    margin: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-style: italic;
+}
+
+.quote .writing {
+    font-weight: 100;
+}
+
+.quote .author {
+    margin-top: 25px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 30px;
+    font-weight: bolder;
+}
