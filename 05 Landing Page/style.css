@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+
+/* HEADER SECTION */
+
+#header {
+    height: 70px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+}
+
+#header ul li {
+    cursor: pointer;
+}
+
+#header-img {
+    height: 60px;
+    width: auto;
+}
