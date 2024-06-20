@@ -12,3 +12,6 @@ In this repo I store some of the project that I made while learning HTML and CSS
 ### 03 Tribute Page
 ![freeCodeCamp project](/.images/tribute-1.png)
 ![freeCodeCamp project](/.images/tribute-2.png)
+
+### 04 Technical Documentation Website (responsive)
+![freeCodeCamp project](/.images/tech-doc-preview.png)
