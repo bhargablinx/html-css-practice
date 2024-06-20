@@ -19,14 +19,11 @@ body {
     /* padding: 15px 30px; */
 }
 
-#sidebar div {
-    border-top: 1px solid #99a1a1;
-    
-}
-
 .sub-topics {
     padding-left: 25px;
     padding-top: 8px;
+    border-top: 1px solid #99a1a1;
+    cursor: pointer;
 }
 
 #content {
@@ -38,3 +35,28 @@ body {
     text-align: center;
     color: black;
 }
+
+
+
+@media (max-width: 1476px) {
+    .title {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1138px) {
+    .title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #sidebar {
+        display: none;
+    }
+    #content {
+        flex: 1;
+    }
+}
+
