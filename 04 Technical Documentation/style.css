@@ -7,11 +7,15 @@ body {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
+    position: relative;
 }
 
 #sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
     flex: 1;
     border-right: 3px solid #99a1a1;
     display: flex;
@@ -19,15 +23,22 @@ body {
     /* padding: 15px 30px; */
 }
 
+.wrapper {
+    margin-left: 20px;
+}
+
 .sub-topics {
     padding-left: 25px;
     padding-top: 8px;
     border-top: 1px solid #99a1a1;
     cursor: pointer;
+    /* position: fixed; */
 }
 
 #content {
+    margin-left: 300px;
     flex: 5;
+    padding: 0 20px;
 }
 
 .title {
@@ -36,6 +47,21 @@ body {
     color: black;
 }
 
+#content > div {
+    font-size: 1rem;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+}
 
 
 @media (max-width: 1476px) {
