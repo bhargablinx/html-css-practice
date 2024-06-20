@@ -53,7 +53,7 @@ h1 {
 #email {
     margin-bottom: 20px;
     width: 250px;
-    height: 25px;
+    height: 40px;
 }
 
 .btn {
@@ -62,6 +62,7 @@ h1 {
     font-size: 0.9rem;
     font-weight: bolder;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .newsletter h1 {
@@ -70,7 +71,8 @@ h1 {
 
 /* SECTION 2 */
 .info {
-    height: 20vw;
+    height: auto;
+    max-height: 20vw;
     display: flex;
     flex-direction: column;
 }
@@ -129,8 +131,15 @@ h1 {
 
 
 
+
+
+
+
+
+
+
 /* RESPONSIVE DESIGN */
-@media (max-width: 976px) {
+@media (max-width: 1000px) {
     #header ul {
         gap: 5rem;
     }
@@ -152,5 +161,48 @@ h1 {
 
     #header {
         padding: 0 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .menu {
+        display: none;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    #header {
+        padding: 0 20px;
+    }
+
+    .info {
+        margin-top: 25px;
+    }
+
+    .row {
+        padding: 10px 40px;
+    }
+}
+
+@media (max-width: 470px) {
+    .newsletter {
+        margin-bottom: 50px;
+    }
+    .row i {
+        font-size: 2rem;
+    }
+
+    .description .title {
+        font-size: 1.2rem;
+    }
+
+    .description .small-dec {
+        font-size: 0.9rem;
+    }
+    
+    .row {
+        padding: 5px 15px;
     }
 }
