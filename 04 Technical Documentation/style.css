@@ -5,6 +5,11 @@ body {
     color: #515257;
 }
 
+a {
+    text-decoration: none;
+    color: #515257;
+}
+
 .container {
     width: 100vw;
     height: auto;
@@ -20,7 +25,6 @@ body {
     border-right: 3px solid #99a1a1;
     display: flex;
     flex-direction: column;
-    /* padding: 15px 30px; */
 }
 
 .wrapper {
@@ -38,7 +42,7 @@ body {
 #content {
     margin-left: 300px;
     flex: 5;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .title {
@@ -61,6 +65,12 @@ code {
     background-color: #f7f7f7;
     padding: 15px;
     border-radius: 5px;
+    line-height: 25px
+}
+
+.link {
+    text-decoration: underline;
+    color: purple;
 }
 
 
@@ -83,6 +93,31 @@ code {
     }
     #content {
         flex: 1;
+        margin-left: 0;
     }
 }
 
+/* @media (max-width: 600px) {
+    body {
+        overflow-y: hidden;
+    }
+    #sidebar {
+        display: none;
+    }
+    #content {
+        flex: 1;
+        margin-left: 0;
+    }
+}
+@media (max-width: 488px) {
+    body {
+        overflow-y: hidden;
+    }
+    #sidebar {
+        display: none;
+    }
+    #content {
+        flex: 1;
+        margin-left: 0;
+    }
+} */
