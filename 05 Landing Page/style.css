@@ -5,6 +5,10 @@ body {
     background-color: #eeeeee;
 }
 
+h1 {
+    display: block;
+}
+
 /* HEADER SECTION */
 
 #header {
@@ -30,4 +34,61 @@ body {
 #header-img {
     height: 60px;
     width: auto;
+}
+
+.nav-bar {
+    display: none;
+}
+
+/* MAIN SECTION */
+
+.newsletter {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+}
+
+.btn {
+    background-color: yellow;
+    padding: 7px 30px;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.newsletter h1 {
+    text-align: center;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 976px) {
+    #header ul {
+        gap: 5rem;
+    }
+
+    #header-img {
+        height: 45px;
+        width: auto;
+    }
+}
+
+@media (max-width: 976px) {
+    .menu {
+        display: none;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    #header {
+        padding: 0 20px;
+    }
 }
