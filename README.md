@@ -15,3 +15,7 @@ In this repo I store some of the project that I made while learning HTML and CSS
 
 ### 04 Technical Documentation Website (responsive)
 ![freeCodeCamp project](/.images/tech-doc-preview.png)
+
+### 05 Product Landing Page (responsive)
+![freeCodeCamp project](.images/p1.png)
+![freeCodeCamp project](.images/p2.png)
