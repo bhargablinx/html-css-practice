@@ -5,6 +5,11 @@ body {
     background-color: #eeeeee;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 h1 {
     display: block;
 }
@@ -12,6 +17,8 @@ h1 {
 /* HEADER SECTION */
 
 #header {
+    margin: auto;
+    max-width: 2000px;
     height: 70px;
     padding: 0 80px;
     display: flex;
@@ -227,6 +234,10 @@ footer ul {
 
     footer {
         width: 80%;
+    }
+
+    footer ul {
+        flex-direction: row;
     }
 }
 
